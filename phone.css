@@ -1,0 +1,58 @@
+body
+{
+    padding: 0%;
+}
+#container
+{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+#playZone
+{
+    display: grid;
+    margin: 10px auto;
+    width: 270px;
+    grid-template-columns: 90px 90px 90px;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    font-size: 3rem;
+    /* border: 2px solid white; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#points
+{
+    display: flex;
+    margin: 20px auto;
+    width: 270px;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.pointItem{
+    /* border: 2px solid red; */
+    height: 65px;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    gap: 5px;
+}
+.pointItem p{
+    font-size: 2rem;
+}
+#selectMode
+{
+    font-size: 2rem;
+}
