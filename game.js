@@ -67,38 +67,37 @@ function isTie() {
 };
 
 function playerHasWon(CP) {
-    if (spaces[0] == CP) {
-        if (spaces[1] == CP && spaces[2] == CP) {
-            return true;
-        }
-        else if (spaces[3] == CP && spaces[6] == CP) {
-            return true;
-        }
-        else if (spaces[4] == CP && spaces[8] == CP) {
-            return true;
-        }
+    if (spaces[0] == CP && spaces[1] == CP && spaces[2] == CP) {
+        return true;
     }
-    else if (spaces[2] == CP) {
-        if (spaces[5] == CP && spaces[8] == CP) {
-            return true;
-        }
-        else if (spaces[4] == CP && spaces[6] == CP) {
-            return true;
-        }
+    else if (spaces[0] == CP && spaces[3] == CP && spaces[6] == CP) {
+        return true;
     }
-    else if (spaces[8] == CP) {
-        if (spaces[7] == CP && spaces[6] == CP) {
-            return true;
-        }
+    else if (spaces[0] == CP && spaces[4] == CP && spaces[8] == CP) {
+        return true;
     }
-    else if (spaces[4] == CP) {
-        if (spaces[1] == CP && spaces[7] == CP) {
-            return true;
-        }
-        else if (spaces[3] == CP && spaces[5] == CP) {
-            return true;
-        }
+
+    else if (spaces[2] == CP && spaces[5] == CP && spaces[8] == CP) {
+
+        return true;
     }
+    else if (spaces[2] == CP && spaces[4] == CP && spaces[6] == CP) {
+        return true;
+    }
+
+    else if (spaces[8] == CP && spaces[7] == CP && spaces[6] == CP) {
+        return true;
+    }
+    else if (spaces[4] == CP && spaces[1] == CP && spaces[7] == CP) {
+        return true;
+    }
+    else if (spaces[4] == CP && spaces[3] == CP && spaces[5] == CP) {
+        return true;
+    }
+    // else if (spaces[4] == CP && spaces[6] == CP && spaces[4] == CP) {
+    //     return true;
+    // }
+    return false;
 };
 
 function reset() {
