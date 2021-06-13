@@ -56,6 +56,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 #points
 {
@@ -82,16 +83,15 @@ h1{
 }
 #selectMode
 {
-    font-size: 2rem;
-    color: rgb(37, 214, 46);
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(1, 148, 26, 0.603);
+    border-radius: 20px;
     text-align: center;
     width: 200px;
-}
-
-#selectMode:hover
-{
-    color: rgb(176, 225, 96);
     cursor: pointer;
+    padding: 10px;
 }
 footer
 {

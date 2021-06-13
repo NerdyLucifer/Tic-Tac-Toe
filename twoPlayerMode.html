@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe|NerdyLucifer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 510px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&family=Ubuntu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Tic Tac Toe</h1>
+        <a href="singlePlayerMode.html" id="selectMode" style="background-color: rgba(0, 255, 242, 0.555);">Go To Single Player Mode</a>
+        <div id="playZone">
+            <div class="box" id="box-0"></div>
+            <div class="box" id="box-1"></div>
+            <div class="box" id="box-2"></div>
+            <div class="box" id="box-3"></div>
+            <div class="box" id="box-4"></div>
+            <div class="box" id="box-5"></div>
+            <div class="box" id="box-6"></div>
+            <div class="box" id="box-7"></div>
+            <div class="box" id="box-8"></div>
+        </div>
+        <div id="points">
+            <div id="score1" class="center pointItem">
+                <h5>Player1(X)</h5>
+                <p id="p1">0</p>
+            </div>
+            <div id="tie" class="center pointItem">
+                <h5>Tie</h5>
+                <p id="tieCount">0</p>
+            </div>
+            <div id="score2" class="center pointItem">
+                <h5 id="name">Player2(O)</h5>
+                <p id="p2">0</p>
+            </div>
+        </div>
+        <footer>"Treasure the experience. Dreams fade away after you wake up."</footer>
+    </div>
+</body>
+<script src="game2P.js"></script>
+</html>
