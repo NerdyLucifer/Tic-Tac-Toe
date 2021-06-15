@@ -5,7 +5,7 @@
 body{
     background-color: black;
     color: white;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,11 +38,11 @@ h1{
     justify-content: center;
 }
 
-#box-0, #box-1, #box-2, #box-3, #box-4, #box-5{
+.under_border{
      border-bottom: 6px solid white;
 }
 
-#box-0, #box-3, #box-6, #box-1, #box-4, #box-7{
+.right_border{
      border-right: 6px solid white;
 }
 
@@ -84,12 +84,13 @@ h1{
 #selectMode
 {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: white;
+    border: 2px solid white;
     background-color: rgba(1, 148, 26, 0.603);
     border-radius: 20px;
     text-align: center;
-    width: 200px;
+    width: 100px;
     cursor: pointer;
     padding: 10px;
 }
@@ -97,3 +98,34 @@ footer
 {
     text-align: center;
 }
+
+.selectSymbol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    font-size: 1.5rem;
+}
+
+button{
+    font-size:1rem;
+    padding: 10px;
+    background-color: rgb(195, 59, 59);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+ #choice{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+ }
+
+ a{
+     text-decoration: none;
+     color: white;
+     font-size: 1rem;
+ }

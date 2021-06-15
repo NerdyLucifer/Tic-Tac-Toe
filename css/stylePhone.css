@@ -52,7 +52,13 @@ body
 .pointItem p{
     font-size: 2rem;
 }
-#selectMode
+/* #selectMode
 {
     font-size: 2rem;
+} */
+
+#selectSymbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
