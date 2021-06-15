@@ -129,3 +129,9 @@ button{
      color: white;
      font-size: 1rem;
  }
+
+ .selectSymbol button{
+     width: 100px;
+     height: 50px;
+     font-size: 1.5rem;
+ }
