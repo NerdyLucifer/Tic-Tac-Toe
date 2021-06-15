@@ -80,6 +80,7 @@ h1{
 }
 .pointItem p{
     font-size: 3rem;
+    font-weight: bold;
 }
 #selectMode
 {
